@@ -2,18 +2,18 @@ import 'package:flutter/material.dart';
 import 'dart:math';
 
 void main() {
-  runApp(const SlotMApp());
+  runApp(const randomDice());
 }
 
-class SlotMApp extends StatelessWidget {
-  const SlotMApp({super.key});
+class randomDice extends StatelessWidget {
+  const randomDice({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
       appBar: AppBar(
-        title: const Text("Slot machine"),
+        title: const Text("dice machine"),
         backgroundColor: Colors.blueGrey,
       ),
       backgroundColor: Colors.black,
